@@ -10,3 +10,5 @@ JS -> Compile/Interpreted by JS engine (V8) -> Assembly level language -> CPU ->
 - getElementsByTagName - [https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagName](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagName)
 - getElementsByClassName - [https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName)
 - getElementById - [https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
+
+[Type coercion](https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion)
