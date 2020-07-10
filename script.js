@@ -4,7 +4,6 @@
 
 // a = 20;
 
-
 // console.log(a);
 // console.log(b);
 // console.log(c);
@@ -17,6 +16,7 @@
 // 'hello'
 // `hello`
 // "a"
+// ""
 
 // -----------------------
 // Number
@@ -29,7 +29,6 @@
 // 100
 // +0
 // -0
-
 
 // var foo = 10;
 // var bar = 20;
@@ -65,10 +64,7 @@
 // console.log(baz); // Vinoth Kumar
 // -----------------------
 
-
 // 'hello' + 20 -> coercion -> 'hello' + '20' -> 'hello20'
-
-
 
 // var foo = '10';
 // var bar = '20';
@@ -89,11 +85,9 @@
 // console.log(baz); // NaN
 // -----------------------
 
-
 // *
 // /
 // -----------------------
-
 
 // %
 
@@ -115,8 +109,6 @@
 // console.log(baz); // 1
 // -----------------------
 
-
-
 // String
 // Number
 // +
@@ -129,8 +121,78 @@
 // +=
 // -=
 // Boolean
+// &&
+// ||
 // Array
 // Object
 // conditions
 // loops
 // functions
+
+// var a = 10;
+
+// a = a + 1;
+
+// var b = a++;
+// var b = ++a;
+
+// a--;
+// --a;
+
+// a = a + 8;
+
+// a += 8;
+
+// a = a - 8;
+
+// a -= 8;
+
+// console.log(a);
+
+// true;
+// false;
+
+// falsy
+
+// false
+// 0
+// -0
+// 0n
+// ""
+// NaN
+// null
+// undefined
+
+// var a;
+
+// a = NaN;
+// a = '';
+// a = false;
+
+// typeof a;
+
+// true && true; // true
+// true && false; // false
+// false && true; // false
+// false && false; // false
+
+// true || true; // true
+// true || false; // true
+// false || true; // true
+// false || false; // false
+
+// var a = 100 && 20; // 20
+// var b = 100 && 0; // 0
+// var c = 0 && 100; // 0
+// var d = 0 && -0; // 0
+
+// var a = 100 || 20; // 100
+// var b = 100 || 0; // 100
+// var c = 0 || 100; // 100
+// var d = 0 || -0; // -0
+
+// 0 || 20 || 100 // 20
+// 0 && 20 && 100 // 0
+
+// 10 + 20 && 20 + 100; // 120
+// 10 - '' && 20 + 100; // NaN
