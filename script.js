@@ -123,10 +123,10 @@
 // Boolean
 // &&
 // ||
-// Array
-// Object
 // conditions
+// Array
 // loops
+// Object
 // functions
 
 // var a = 10;
@@ -196,3 +196,34 @@
 
 // 10 + 20 && 20 + 100; // 120
 // 10 - '' && 20 + 100; // NaN
+
+// if ('10') {
+//   var value = 10;
+//   console.log(value + ' is true');
+// } else {
+//   console.log('10 is not true');
+// }
+
+// '' ? console.log('10 is true') : console.log('10 is not true');
+
+// if ('') {
+//   var value = 10;
+//   console.log(value + ' is true');
+// } else if ('') {
+//   console.log('20 is true');
+// } else {
+//   console.log('20 is not true');
+// }
+
+// var array = [10, 20, 30, 40];
+// console.log(array.length);
+
+// console.log(array[array.length - 1]);
+
+// array[0] = 100;
+
+// console.log(array);
+
+// var foo = 'Hello, word';
+
+// console.log(foo[0]);
