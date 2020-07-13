@@ -125,7 +125,15 @@
 // ||
 // conditions
 // Array
+// <
+// >
+// <=
+// >=
+// ==
+// !=
+// ====
 // loops
+
 // Object
 // functions
 
@@ -227,3 +235,55 @@
 // var foo = 'Hello, word';
 
 // console.log(foo[0]);
+
+// 100 <= 99;
+
+// 100 is greater then or equal to 12
+
+// 100 == '100'
+
+// 100 === '100'
+
+// 100 !== 100;
+
+// !true // false
+// !false // true
+
+// !(100 && 200) // false
+
+// for
+// while
+
+// var n = 0;
+// while (n < 3) {
+//   n++;
+// }
+
+// // 0 < 3
+// // 1 < 3
+// // 2 < 3
+// // 3 < 3
+
+// console.log(n);
+
+// for (var n = 0; n < 3; n++) {
+//   console.log(n);
+// }
+
+// var n = 0;
+// 0 < 3;
+// console.log(0);
+// n++
+// 1 < 3
+// console.log(1);
+// n++
+// 2 < 3
+// console.log(2);
+// n++
+// 3 < 3
+
+for (let index = 0; index <= 10; index++) {
+  if (!(index % 2 === 0)) {
+    console.log(index);
+  }
+}
