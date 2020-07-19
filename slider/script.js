@@ -2,6 +2,14 @@ var sliderIndex = 0;
 var sliderLength = document.getElementsByClassName('slider-images').length;
 
 document.getElementById('next').onclick = function () {
+  moveNext();
+};
+
+document.getElementById('previous').onclick = function () {
+  movePre();
+};
+
+function moveNext() {
   var activeSlider = document.getElementsByClassName('slider-images')[
     sliderIndex
   ];
@@ -21,9 +29,9 @@ document.getElementById('next').onclick = function () {
   ];
 
   nextSlider.classList.add('active');
-};
+}
 
-document.getElementById('previous').onclick = function () {
+function movePre() {
   var activeSlider = document.getElementsByClassName('slider-images')[
     sliderIndex
   ];
@@ -43,4 +51,8 @@ document.getElementById('previous').onclick = function () {
   ];
 
   previousSlider.classList.add('active');
-};
+}
+
+setInterval(function () {
+  moveNext();
+}, 2000);

@@ -282,8 +282,60 @@
 // n++
 // 3 < 3
 
-for (let index = 0; index <= 10; index++) {
-  if (!(index % 2 === 0)) {
-    console.log(index);
-  }
-}
+// for (let index = 0; index <= 10; index++) {
+//   if (!(index % 2 === 0)) {
+//     console.log(index);
+//   }
+// }
+
+// var array = [
+//   {
+//     firstName: 'Ram',
+//     lastName: 'Kumar'
+//   },
+//   {
+//     firstName: 'Vinoth',
+//     lastName: 'Srinivasan'
+//   }
+// ];
+
+// var b = [
+//   [1, 2, 3],
+//   [4, 5, 6]
+// ];
+
+// div {
+//   color: 'red';
+// }
+
+// var a = {
+//   firstName: 'Ram',
+//   lastName: 'Kumar'
+// };
+
+// array[0];
+
+// a['firstName'];
+// a.firstName;
+
+// var input = 'firstName';
+
+// a[input];
+
+// var a = 10;
+// var b = 20;
+// var c = add(a, b);
+
+// var d = 10;
+// var e = 50;
+// var r = add(d, e);
+
+// add(200, 200);
+
+// function add(a, b) {
+//   if (typeof a === 'number' && typeof b === 'number') {
+//     return a + b;
+//   }
+
+//   return 0;
+// }
