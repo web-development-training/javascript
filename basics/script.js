@@ -313,6 +313,13 @@
 //   lastName: 'Kumar'
 // };
 
+// diffrent values of same meaning, same type - Array
+
+// ['Ram', 'Kumar', 'Sam']
+
+// diff type - a
+// same type - o
+
 // array[0];
 
 // a['firstName'];
@@ -339,3 +346,9 @@
 
 //   return 0;
 // }
+
+var bar = 10;
+bar = 20;
+
+var foo = 'kumar';
+foo[2] = 'a';
