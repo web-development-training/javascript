@@ -106,6 +106,30 @@ false || false; // false
 'hello' || 'world'; // 'hello'
 'foo' || 100; // 'foo'
 
+// String
+// '' // single quotes
+// "" // double quotes
+// `` // back tick
+
+// Number
+// -1000
+// -1
+// 0
+// -0
+// +0
+// 1
+// 1000
+// 1000000000000
+
+// Numeric separators
+// 1_000_000_000_000
+// 1_000_000.220_720
+// https://v8.dev/features/numeric-separators
+
+// Boolean
+// true
+// false
+
 // Falsy values
 // When we convert something to Boolean
 // and if it gives use false value then it is falsy values
@@ -117,3 +141,58 @@ false || false; // false
 // NaN
 // ''
 // false
+
+// Truthy values
+// Any value other then the Falsy value is Truthy
+
+// undefined
+
+// null
+
+// NaN
+
+// post incremental operator
+var c = 10++; // c is 10
+// in the next line/after the statement completed c will be 11
+
+// pre incremental operator
+var d = ++10; // d is 11
+
+// post decremental operator
+// var e = 10--; // 10
+
+// pre decremental operator
+// var f = --10; // 9
+
+var g = 10;
+
+// g = g + 20; // g is 30
+
+// Short hand
+g += 20; // g is 30
+g -= 10; // g is 20
+g *= 2; // g is 40
+g /= 2; // g is 20
+g **= 2; // g is 400 // 20 power of 2 is 400
+
+g %= 3; // g is 1
+// 400 / 3 => 133.33333333333334
+// 133 * 3 => 399 so reminder is 1 so the % is 1
+
+typeof g; // number
+
+g *= 'hello'; // NaN // Not a Valid Number
+
+typeof g; // number
+
+// typeof - to find the value type
+
+if (10) {
+  // what every the value inside the if condition it will convert it to Boolean value and check the condition
+  // Boolean(10) -> true
+} else {
+  // if the if condition fails the else block will be executed
+}
+
+// 10 ? console.log('this is the if block') : console.log('this is the else block');
+// ternary operator
