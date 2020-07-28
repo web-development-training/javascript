@@ -3,7 +3,7 @@ var a = 'Hello';
 // var -> Keyword
 // foo -> variable name
 // = -> assignment operator
-// "Hello" -> value
+// "Hello" -> value of string type
 
 10 + 20; // 30
 10 + '10'; // '1010'
@@ -159,10 +159,10 @@ var c = 10++; // c is 10
 var d = ++10; // d is 11
 
 // post decremental operator
-// var e = 10--; // 10
+// var e = 10--; // e is 10
 
 // pre decremental operator
-// var f = --10; // 9
+// var f = --10; // f is 9
 
 var g = 10;
 
@@ -188,7 +188,7 @@ typeof g; // number
 // typeof - to find the value type
 
 if (10) {
-  // what every the value inside the if condition it will convert it to Boolean value and check the condition
+  // whatever the value inside the if condition it will convert it to Boolean value and check the condition
   // Boolean(10) -> true
 } else {
   // if the if condition fails the else block will be executed
@@ -196,3 +196,51 @@ if (10) {
 
 // 10 ? console.log('this is the if block') : console.log('this is the else block');
 // ternary operator
+
+// July 28
+var n = 10;
+
+if (n === 10) {
+  // whatever the value inside the if condition it will convert it to Boolean value and check the condition
+  // Boolean(10) -> true
+} else if (n === 20) {
+  //  if the first if condition fails it will check the second condition
+} else if (n === 30) {
+  //  if the first and second if condition fails it will check the third condition
+} else {
+  // if the if condition fails the else block will be executed
+}
+
+var m = 10;
+switch (m) {
+  case 10:
+    // if the m value is 10 the first case will be executed
+    break;
+
+  case 20:
+    // if the m value is 20 the second case will be executed
+    break;
+
+  case 30:
+    // if the m value is 30 the third case will be executed
+    break;
+
+  default:
+    // if the m value is does not satisfy the any above condition the default block will be executed
+    break;
+}
+
+var g = [10, 31, 42, 73, 14];
+g.length; // 5
+
+// I want Number/value 3 from array g
+
+// bracket notation
+g[3]; // 73
+
+// Loop
+var i = 0;
+while (i < g.length) {
+  console.log(g[i]);
+  i++;
+}
