@@ -238,9 +238,70 @@ g.length; // 5
 // bracket notation
 g[3]; // 73
 
-// Loop
+// While Loop
 var i = 0;
 while (i < g.length) {
   console.log(g[i]);
   i++;
+}
+
+// For Loop
+for (var i = 0; i < g.length; i++) {
+  console.log(g[i]);
+}
+
+// Loop to log even numbers till 20
+for (var i = 0; i <= 20; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
+
+var obj = { firstName: 'foo', lastName: 'bar' };
+obj['firstName']; // foo // bracket notation
+obj.firstName; // foo // dot notation
+
+var person = {
+  name: 'foo bar',
+  age: 30
+};
+
+var person = {
+  rollNo: 67,
+  name: {
+    firstName: 'foo',
+    lastName: 'bar'
+  },
+  age: 30,
+  marks: {
+    english: 100,
+    tamil: 100,
+    math: 100
+  },
+  array: [10, 20, 10, 20, 20]
+};
+
+person.name.firstName;
+person.marks.tamil;
+person.array[1];
+
+var array = [
+  {
+    name: 'foo bar',
+    age: 30
+  },
+  {
+    name: 'foo baz',
+    age: 32
+  },
+  {
+    name: 'foo',
+    age: 35
+  }
+];
+
+array[0].age;
+
+for (var i = 0; i < array.length; i++) {
+  console.log(array[i].name);
 }
