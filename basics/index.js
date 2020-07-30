@@ -273,6 +273,7 @@ var person = {
     lastName: 'bar'
   },
   age: 30,
+  canVote: true,
   marks: {
     english: 100,
     tamil: 100,
@@ -305,3 +306,22 @@ array[0].age;
 for (var i = 0; i < array.length; i++) {
   console.log(array[i].name);
 }
+
+var data = {
+  rollNo: 67,
+  name: {
+    firstName: 'foo',
+    lastName: 'bar'
+  },
+  age: 30,
+  canVote: true,
+  marks: {
+    english: 100,
+    tamil: 100,
+    math: 100
+  },
+  array: [10, 20, 10, 20, 20]
+};
+
+var jsonData = JSON.stringify(data);
+var dataObj = JSON.parse(jsonData);
