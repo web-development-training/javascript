@@ -1,9 +1,22 @@
-var a = 'Hello';
+var a = 'Hello'; // the full line is a Statement
 
 // var -> Keyword
-// foo -> variable name
+// a -> variable name
 // = -> assignment operator
 // "Hello" -> value of string type
+
+// Declaration: The variable is registered using a given name within the corresponding scope (explained below – e.g. inside a function).
+// Initialization: When you declare a variable it is automatically initialized, which means memory is allocated for the variable by the JavaScript engine.
+// var x; // Declaration and initialization
+
+// Assignment: This is when a specific value is assigned to the variable.
+// Eg: foo = 10;
+
+// 1) var example; // this is declaring and initializing with undefined
+
+// 2) example="hi"; // this is assigning the value to hi
+
+// 3) var example = "hi" // this is declaring and initializing with "hi"
 
 10 + 20; // 30
 10 + '10'; // '1010'
@@ -82,6 +95,7 @@ Boolean(20); // true
 'hello' < 10; // false
 10 < '10'; // false
 10 < Number('10'); // false
+10 <= Number('10'); // true
 
 // it will search for false
 true && true; // true
@@ -132,7 +146,7 @@ false || false; // false
 
 // Falsy values
 // When we convert something to Boolean
-// and if it gives use false value then it is falsy values
+// and if it gives false value then it is falsy values
 
 // -0
 // 0
@@ -168,6 +182,7 @@ var g = 10;
 
 // g = g + 20; // g is 30
 
+// compound assignment operator
 // Short hand
 g += 20; // g is 30
 g -= 10; // g is 20
