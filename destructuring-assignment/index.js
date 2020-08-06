@@ -1,3 +1,4 @@
+// https://javascript.info/destructuring-assignment
 // array destructuring
 // var arr = ['Ilya', 'Kantor'];
 
@@ -68,5 +69,3 @@ console.log(w, h, title);
 // alert(title); // Menu
 // alert(width); // 100
 // alert(height); // 200
-
-// https://javascript.info/destructuring-assignment
