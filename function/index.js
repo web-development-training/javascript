@@ -53,3 +53,21 @@ function add() {
 }
 
 // --------------------------
+
+{
+  let a = 10;
+}
+console.log(a); // Undeclared error
+
+// --------------------------
+const tax; // error
+const tax = 18; // Primitive type values in const cannot be changed.
+tax = 20; // error
+
+const obj = {
+  name : 'Foo',
+  age : 30
+};
+
+obj.age = 31; // Non Primitive type value in const can be changed.
+// --------------------------
