@@ -70,4 +70,36 @@ const obj = {
 };
 
 obj.age = 31; // Non Primitive type value in const can be changed.
+
 // --------------------------
+
+
+function add10(a) {
+  return a + 10;
+}
+
+let add10 = a => a + 10; // arrow function
+
+let result = add(10, 20);
+
+// -----------------------------------
+
+let arr = [10, 20];
+
+let add = ([a, b]) => a + b;
+
+add(arr);
+
+// let [a, b] = arr;
+
+
+// -----------------------------------
+
+let obj = {
+  a: 100,
+  b: 100
+}
+
+let add = ({a, b}) => a + b;
+
+add(obj);
