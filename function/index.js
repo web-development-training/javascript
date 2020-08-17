@@ -103,3 +103,16 @@ let obj = {
 let add = ({a, b}) => a + b;
 
 add(obj);
+
+
+// -----------------------------------
+
+var array = [1, 3];
+for (let i = 0; i < array.length; i++) {
+  
+}
+
+console.log(i); // Reference error
+
+// -----------------------------------
+
