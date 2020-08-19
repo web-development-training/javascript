@@ -124,24 +124,3 @@ let array2 = [5, 6, 7];
 let combineArray = [...array1, ...array2]; // [1, 2, 3, 5, 6, 7]
 [10, 20, ...array1, 30, 50]; // [10, 20, 1, 2, 3, 30, 50]
 
-
-// var
-// let
-// const
-// function
-// arrow function
-// array
-// object
-// array destructing
-// object destructing
-// Primitive type
-// Non-Primitive type
-// Falsy
-// Truthy
-// Scope
-// Optional chaining
-// setTimeout
-// setInterval
-// DOM
-// Spread 
-// Rest

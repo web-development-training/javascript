@@ -12,3 +12,30 @@ JS -> Compile/Interpreted by JS engine (V8) -> Assembly level language -> CPU ->
 - getElementById - [https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
 
 [Type coercion](https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion)
+
+// var
+// let
+// const
+// function
+// arrow function
+// Anonymous function
+// Argument / Parameter
+// array
+// object
+// array destructing assignment
+// object destructing assignment
+// Primitive type
+// Non-Primitive type
+// Falsy
+// Truthy
+// Scope
+// Hoisting
+// Optional chaining
+// setTimeout
+// clearTimeout
+// setInterval
+// clearInterval
+// DOM
+// Rest
+// Spread
+// Garbage collector
