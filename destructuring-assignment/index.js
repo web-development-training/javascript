@@ -69,3 +69,9 @@ console.log(w, h, title);
 // alert(title); // Menu
 // alert(width); // 100
 // alert(height); // 200
+
+a = 20;
+
+var a;
+
+console.log(a); // 20
