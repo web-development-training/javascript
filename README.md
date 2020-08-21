@@ -39,3 +39,7 @@ JS -> Compile/Interpreted by JS engine (V8) -> Assembly level language -> CPU ->
 // Rest
 // Spread
 // Garbage collector
+// for...of
+// for...in
+// break
+//continue

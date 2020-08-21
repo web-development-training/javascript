@@ -75,3 +75,21 @@ a = 20;
 var a;
 
 console.log(a); // 20
+
+
+
+const array = ['hello', 'world'];
+
+for (const p in array) {
+  console.log(p);
+}
+
+// 0
+// 1
+
+for (const v of array) {
+  console.log(v);
+}
+
+// 'hello'
+// 'world'
