@@ -14,32 +14,43 @@ JS -> Compile/Interpreted by JS engine (V8) -> Assembly level language -> CPU ->
 [Type coercion](https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion)
 
 // var
-// let
-// const
-// function
-// arrow function
-// Anonymous function
-// Argument / Parameter
-// array
-// object
-// array destructing assignment
-// object destructing assignment
-// Primitive type
-// Non-Primitive type
+// types - string, number, boolean
+// + - * / % ** 
+// ++ -- 
+// += -= *= /= %= **=
+// < <= > >= == ===
+// || &&
+// type conversion, type coercion
+// if, if else, nested if
 // Falsy
 // Truthy
-// Scope
-// Hoisting
-// Optional chaining
+// array
+// while
+// for
 // setTimeout
 // clearTimeout
 // setInterval
 // clearInterval
 // DOM
+// object
+// function
+// arrow function
+// function expression
+// Anonymous function
+// Argument / Parameter
+// Primitive type
+// Non-Primitive type
+// array destructing assignment
+// object destructing assignment
 // Rest
 // Spread
+// Optional chaining
+// Scope
+// let
+// const
+// Hoisting
 // Garbage collector
 // for...of
 // for...in
 // break
-//continue
+// continue
