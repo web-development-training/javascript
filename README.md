@@ -18,7 +18,7 @@ JS -> Compile/Interpreted by JS engine (V8) -> Assembly level language -> CPU ->
 // + - * / % ** 
 // ++ -- 
 // += -= *= /= %= **=
-// < <= > >= == ===
+// < <= > >= == != === !==
 // || &&
 // type conversion, type coercion
 // if, if else, nested if
